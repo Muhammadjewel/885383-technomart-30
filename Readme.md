@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Mukhammadjavokhirbek Suratov](https://up.htmlacademy.ru/htmlcss/30/user/885383).
-* Наставник: `Неизвестно`.
+* Наставник: [Вадим Канинский](https://htmlacademy.ru/profile/id78842).
 
 ---
 
