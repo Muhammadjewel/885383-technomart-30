@@ -54,6 +54,84 @@
     <!-- CONTENT -->
 
     <main>
+      <h1>Перфораторы</h1>
+
+      <!-- BREADCRUMBS -->
+      <section>
+        <h2>Хлебные крошки</h2>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="blank.html">Инструмент</a></li>
+          <li>Перфораторы</li>
+        </ul>
+      </section>
+
+
+      <!-- FILTERS -->
+      <section>
+        <h2>Фильтр:</h2>
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset>
+            <legend>Цена:</legend>
+
+            <label for="price-range-input">Цена</label>
+            <input type="range" name="price_range" id="price-range-input" min="0" max="100000" step="100" required>
+
+            <label for="min-price-input">Минимальная цена</label>
+            <input type="number" name="min_price" id="min-price-input" value="0" placeholder="0" required>
+
+            <label for="max-price-input">Максимальная цена</label>
+            <input type="number" name="max_price" id="max-price-input" value="30000" placeholder="30000" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Производители:</legend>
+
+            <label>
+              <input type="checkbox" name="bosch" checked>
+              <span>Bosch</span>
+            </label>
+
+            <label>
+              <input type="checkbox" name="interskol">
+              <span>Интерскол</span>
+            </label>
+
+            <label>
+              <input type="checkbox" name="makita" checked>
+              <span>Makita</span>
+            </label>
+
+            <label>
+              <input type="checkbox" name="dewalt">
+              <span>Dewalt</span>
+            </label>
+
+            <label>
+              <input type="checkbox" name="hitachi">
+              <span>Hitachi</span>
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Питание:</legend>
+
+            <label>
+              <input type="radio" name="power" value="accumulator" checked>
+              <span>Аккумуляторные</span>
+            </label>
+
+            <label>
+              <input type="radio" name="power" value="electricity">
+              <span>Сетевые</span>
+            </label>
+          </fieldset>
+
+          <button type="submit">Показать</button>
+        </form>
+      </section>
+
     </main>
 
 
