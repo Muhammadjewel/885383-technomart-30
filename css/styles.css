@@ -293,3 +293,40 @@ body {
 .promoslider-control {
   background-color: transparent;
 }
+
+
+/* Popular products */
+.section-header {
+  font-family: "Cuprum", "Arial", sans-serif;
+  background-color: var(--light-bg);
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  text-transform: uppercase;
+}
+
+/* Product */
+.product-title {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.product-price {
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.product-price-old {
+  font-weight: bold;
+  color: var(--old-price-grey);
+}
+
+.product-price-actual {
+  background-image: url("../img/red-button.png");
+  background-size: contain;
+  color: #fff;
+}
