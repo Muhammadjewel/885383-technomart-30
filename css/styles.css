@@ -175,3 +175,23 @@ body {
 .site-header-auth-link:active {
   color: var(--basic-greylight);
 }
+
+/* Sitenav */
+.sitenav {
+  background-color: var(--dark-blue);
+  color: #fff;
+  font-size: 18px;
+}
+
+.sitenav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sitenav-link:hover {
+  background-color: var(--darker-blue);
+}
+
+.sitenav-link:active {
+  background-color: #161d29;
+}
