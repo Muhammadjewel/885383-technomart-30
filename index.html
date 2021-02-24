@@ -107,29 +107,41 @@
           </li>
         </ul>
 
-        <section>
-          <h3>Промослайдер</h3>
-          <ul>
-            <li>
-              <h4>Перфораторы</h4>
-              <p>Настоящие мужские игрушки</p>
-              <a href="catalog.html">Открыть каталог</a>
-              <img src="img/slider-perforator.jpg" alt="Мужчина пользуется перфоратором" width="620" height="266">
+        <section class="promoslider">
+          <h3 class="visually-hidden">Промослайдер</h3>
+          <ul class="promoslider-list">
+            <li class="promoslider-item slide">
+              <div class="slide-caption">
+                <h4 class="slide-title">Перфораторы</h4>
+                <p class="slide-text">Настоящие мужские игрушки</p>
+              </div>
+              <a class="button" href="catalog.html">Открыть каталог</a>
+              <img class="slide-img" src="img/slider-perforator.jpg" alt="Мужчина пользуется перфоратором" width="620" height="266">
             </li>
-            <li>
-              <h4>Дрели</h4>
-              <p>Соседям на радость!</p>
-              <a href="catalog.html">Открыть каталог</a>
-              <img src="img/slider-drill.jpg" alt="Мужчина пользуется дрелем" width="620" height="266">
+            <li class="promoslider-item slide">
+              <div class="slide-caption">
+                <h4 class="slide-title">Дрели</h4>
+                <p class="slide-text">Соседям на радость!</p>
+              </div>
+              <a class="button" href="catalog.html">Открыть каталог</a>
+              <img class="slide-img" src="img/slider-drill.jpg" alt="Мужчина пользуется дрелем" width="620" height="266">
             </li>
           </ul>
 
-          <button type="button" disabled>Предыдущий слайд</button>
-          <button type="button">Следующий слайд</button>
+          <button class="promoslider-control promoslider-control-prev" type="button">
+            <span class="visually-hidden">Предыдущий слайд</span>
+          </button>
+          <button class="promoslider-control promoslider-control-next" type="button">
+            <span class="visually-hidden">Следующий слайд</span>
+          </button>
 
-          <ul>
-            <li><button type="button" disabled>1</button></li>
-            <li><button type="button">2</button></li>
+          <ul class="promoslider-indicators">
+            <li class="promoslider-indicators-item">
+              <button class="promoslider-indicators-button" type="button" disabled>1</button>
+            </li>
+            <li class="promoslider-indicators-item">
+              <button class="promoslider-indicators-button" type="button">2</button>
+            </li>
           </ul>
         </section>
       </section>

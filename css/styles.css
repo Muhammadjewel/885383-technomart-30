@@ -61,6 +61,8 @@
   --lightest-grey: #e5e5e5;
   --old-price-grey: #a9a9a9;
   --basic-red: #ee3643;
+  --button-hover: #ca2c37;
+  --button-active: #ba2732;
   --basic-green: #63a63e;
   --darker-green: #367315;
   --range-green: #00ca74;
@@ -78,6 +80,26 @@ body {
   font-size: 13px;
   line-height: 24px;
   color: #000;
+}
+
+/* Button */
+.button {
+  background-color: var(--basic-red);
+  color: #fff;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+}
+
+.button:active {
+  background-color: var(--button-active);
 }
 
 
@@ -200,6 +222,9 @@ body {
 /* Promos */
 .promos {
   font-family: "Cuprum", "Arial", sans-serif;
+}
+
+.promos-list {
   color: #fff;
 }
 
@@ -235,4 +260,31 @@ body {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.promos-item-link:hover {
+  background-color: rgb(197, 197, 197, 0.3);
+}
+
+.promos-item-link:active {
+  background-color: rgb(169, 169, 169, 0.3);
+}
+
+/* Promoslider */
+.promoslider {
+  color: #fff;
+}
+
+/* Slide */
+.slide-caption {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.slide-title {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.slide-text {
+  font-size: 18px;
 }
