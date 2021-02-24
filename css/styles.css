@@ -57,6 +57,7 @@
   --light-bg: #f9f5f0;
   --light-grey: #eaeaea;
   --lighter-grey: #f4f4f4;
+  --lighter-grey-2: #c5c5c5;
   --lightest-grey: #e5e5e5;
   --old-price-grey: #a9a9a9;
   --basic-red: #ee3643;
@@ -68,6 +69,7 @@
   --special-purple: #dc91d8;
   --special-green: #8ed78f;
   --link-yellow: #ffd180;
+  --error: #ba2732;
 }
 
 body {
@@ -75,4 +77,106 @@ body {
   font-size: 13px;
   line-height: 24px;
   color: #000;
+}
+
+
+/* Site-header */
+.site-header {
+  font-family: "Cuprum", "Arial", sans-serif;
+  background-color: var(--basic-bg);
+}
+
+.site-header-top {
+  background-color: var(--darker-blue);
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Logo */
+.logo {
+  background-color: var(--basic-red);
+}
+
+.logo:active {
+  background-color: var(--error);
+}
+
+/* Search form */
+.search-form-input {
+  background-color: transparent;
+  color: #fff;
+}
+
+.search-form-input:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Site header actions */
+.site-header-bookmarks-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-header-bookmarks-link:active {
+  background-color: #161d29;
+}
+
+.site-header-cart-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-header-cart-link:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.site-header-order-link {
+  background-color: var(--basic-green);
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-header-order-link:active {
+  background-color: #161d29;
+}
+
+.site-header-about-text {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: var(--basic-red);
+}
+
+.site-header-phone {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  color: var(--basic-red);
+  text-decoration: none;
+}
+
+.site-header-address {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  color: var(--dark-blue);
+}
+
+.site-header-auth-link {
+  font-size: 21px;
+  line-height: 21px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+}
+
+.site-header-auth-link:hover {
+  color: var(--basic-red);
+}
+
+.site-header-auth-link:active {
+  color: var(--lighter-grey-2);
 }

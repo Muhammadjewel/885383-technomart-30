@@ -15,29 +15,35 @@
 
     <!-- SITE-HEADER -->
 
-    <header>
+    <header class="site-header">
       <!-- SITE-HEADER-TOP -->
-      <a>
-        <img src="img/logo-technomart.svg" alt="Лого Техномарт" width="108" height="18">
-      </a>
+      <div class="site-header-top">
+        <div class="container site-header-top-container">
+          <a class="logo">
+            <img class="logo-img" src="img/logo-technomart.svg" alt="Лого Техномарт" width="108" height="18">
+          </a>
 
-      <form action="https://echo.htmlacademy.ru" method="GET">
-        <label for="search-input">Поиск</label>
-        <input type="search" name="search" id="search-input" placeholder="Поиск:" required>
-      </form>
+          <form class="search-form" action="https://echo.htmlacademy.ru" method="GET">
+            <label class="visually-hidden" for="search-input">Поиск</label>
+            <input class="search-form-input" type="search" name="search" id="search-input" placeholder="Поиск:" required>
+          </form>
 
-      <a href="blank.html">Закладки: 0</a>
-      <a href="blank.html">Корзина: 0</a>
-      <a href="blank.html">Оформить заказ</a>
+          <a class="site-header-bookmarks-link" href="blank.html">Закладки: 0</a>
+          <a class="site-header-cart-link" href="blank.html">Корзина: 0</a>
+          <a class="site-header-order-link" href="blank.html">Оформить заказ</a>
+        </div>
+      </div>
 
 
       <!-- SITE-HEADER-MIDDLE -->
-      <p>Интернет-магазин<br>строительных материалов <br>и инструментов для ремонта</p>
-      <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      <div class="container site-header-middle">
+        <p class="site-header-about-text">Интернет-магазин<br>строительных материалов <br>и инструментов для ремонта</p>
+        <a class="site-header-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+        <address class="site-header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
 
-      <a href="blank.html">Войти</a>
-      <a href="blank.html">Регистрация</a>
+        <a class="site-header-auth-link" href="blank.html">Войти</a>
+        <a class="site-header-auth-link" href="blank.html">Регистрация</a>
+      </div>
 
 
       <!-- SITENAV -->
