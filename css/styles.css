@@ -102,6 +102,20 @@ body {
   background-color: var(--button-active);
 }
 
+/* Site section */
+.section-header {
+  font-family: "Cuprum", "Arial", sans-serif;
+  background-color: var(--light-bg);
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  text-transform: uppercase;
+}
+
 
 /* Site-header */
 .site-header {
@@ -294,20 +308,6 @@ body {
   background-color: transparent;
 }
 
-
-/* Popular products */
-.section-header {
-  font-family: "Cuprum", "Arial", sans-serif;
-  background-color: var(--light-bg);
-}
-
-.section-title {
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 400;
-  color: var(--dark-blue);
-  text-transform: uppercase;
-}
 
 /* Product */
 .product-title {
