@@ -195,3 +195,44 @@ body {
 .sitenav-link:active {
   background-color: #161d29;
 }
+
+
+/* Promos */
+.promos {
+  font-family: "Cuprum", "Arial", sans-serif;
+  color: #fff;
+}
+
+.promos-item-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.promos-item-materials {
+  background-color: var(--special-yellow);
+}
+
+.promos-item-instruments {
+  background-color: var(--special-teal);
+}
+
+.promos-item-technics {
+  background-color: var(--special-purple);
+}
+
+.promos-item-discount {
+  background-color: var(--special-green);
+}
+
+.promos-item-delivery {
+  background-color: var(--special-yellow);
+}
+
+.promos-item-link {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
