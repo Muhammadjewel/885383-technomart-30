@@ -288,3 +288,8 @@ body {
 .slide-text {
   font-size: 18px;
 }
+
+/* Promoslider controls */
+.promoslider-control {
+  background-color: transparent;
+}
