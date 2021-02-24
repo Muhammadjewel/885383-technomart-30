@@ -69,6 +69,7 @@
   --special-purple: #dc91d8;
   --special-green: #8ed78f;
   --link-yellow: #ffd180;
+  --success: #5fbb2d;
   --error: #ba2732;
 }
 
@@ -114,35 +115,29 @@ body {
 }
 
 /* Site header actions */
-.site-header-bookmarks-link {
+.site-header-action {
   color: #fff;
   text-decoration: none;
 }
 
-.site-header-bookmarks-link:active {
-  background-color: #161d29;
-}
-
-.site-header-cart-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.site-header-cart-link:active {
+.site-header-action:active {
   background-color: #161d29;
   color: rgba(255, 255, 255, 0.5);
 }
 
-.site-header-order-link {
+.site-header-action-order {
   background-color: var(--basic-green);
-  color: #fff;
-  text-decoration: none;
 }
 
-.site-header-order-link:active {
-  background-color: #161d29;
+.site-header-action-order:hover {
+  background-color: var(--success);
 }
 
+.site-header-action-order:active {
+  background-color: var(--basic-green);
+}
+
+/* Site header middle */
 .site-header-about-text {
   font-size: 16px;
   line-height: 23px;
