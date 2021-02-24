@@ -57,7 +57,7 @@
   --light-bg: #f9f5f0;
   --light-grey: #eaeaea;
   --lighter-grey: #f4f4f4;
-  --lighter-grey-2: #c5c5c5;
+  --basic-greylight: #c5c5c5;
   --lightest-grey: #e5e5e5;
   --old-price-grey: #a9a9a9;
   --basic-red: #ee3643;
@@ -173,5 +173,5 @@ body {
 }
 
 .site-header-auth-link:active {
-  color: var(--lighter-grey-2);
+  color: var(--basic-greylight);
 }
