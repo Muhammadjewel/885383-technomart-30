@@ -344,6 +344,7 @@ body {
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .services-tabs {
