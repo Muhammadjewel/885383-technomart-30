@@ -330,3 +330,47 @@ body {
   background-size: contain;
   color: #fff;
 }
+
+
+/* Services */
+.services {
+  background-color: var(--basic-bg);
+}
+
+.services-heading {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.services-tabs {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.services-tabs-link {
+  background-color: var(--dark-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+.services-tabs-link:hover {
+  background-color: var(--darker-blue);
+}
+
+.services-tabs-item-active .services-tabs-link {
+  color: var(--dark-blue);
+  background-color: #fff;
+}
+
+.service-name {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  text-transform: uppercase;
+}
