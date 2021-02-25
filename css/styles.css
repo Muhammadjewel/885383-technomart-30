@@ -374,3 +374,19 @@ body {
   color: var(--dark-blue);
   text-transform: uppercase;
 }
+
+
+/* About */
+.about-heading {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.about-transport-companies {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
