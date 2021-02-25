@@ -410,3 +410,50 @@ body {
   font-size: 18px;
   line-height: 24px;
 }
+
+
+/* Site-footer */
+.site-footer {
+  background-color: var(--dark-blue);
+  color: #fff;
+  font-family: var(--heading-font-stack);
+}
+
+.site-footer-top {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.site-footer-main-links-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer-main-links-link:hover {
+  text-decoration: underline;
+}
+
+.site-footer-main-links-link:active {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.site-footer-phone-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer-promo-links-link {
+  color: var(--link-yellow);
+  text-decoration: none;
+}
+
+.site-footer-promo-links-link:hover {
+  text-decoration: underline;
+}
+
+.site-footer-promo-links-link:active {
+  text-decoration: none;
+  opacity: 0.5;
+}
