@@ -402,3 +402,11 @@ body {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+
+/* Form modal */
+.form-modal-label {
+  font-family: var(--heading-font-stack);
+  font-size: 18px;
+  line-height: 24px;
+}
