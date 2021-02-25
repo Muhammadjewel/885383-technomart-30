@@ -73,10 +73,12 @@
   --link-yellow: #ffd180;
   --success: #5fbb2d;
   --error: #ba2732;
+  --text-font-stack: "PT Sans", "Arial", sans-serif;
+  --heading-font-stack: "Cuprum", "Arial", sans-serif;
 }
 
 body {
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: var(--text-font-stack);
   font-size: 13px;
   line-height: 24px;
   color: #000;
@@ -86,7 +88,7 @@ body {
 .button {
   background-color: var(--basic-red);
   color: #fff;
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   font-size: 14px;
   line-height: 18px;
   text-align: center;
@@ -104,7 +106,7 @@ body {
 
 /* Site section */
 .section-header {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   background-color: var(--light-bg);
 }
 
@@ -119,7 +121,7 @@ body {
 
 /* Site-header */
 .site-header {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   background-color: var(--basic-bg);
 }
 
@@ -235,7 +237,7 @@ body {
 
 /* Promos */
 .promos {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
 }
 
 .promos-list {
@@ -338,14 +340,14 @@ body {
 }
 
 .services-heading {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
 }
 
 .services-tabs {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   font-size: 21px;
   line-height: 30px;
   font-weight: bold;
@@ -367,7 +369,7 @@ body {
 }
 
 .service-name {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
@@ -378,7 +380,7 @@ body {
 
 /* About */
 .about-heading {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
@@ -386,7 +388,7 @@ body {
 }
 
 .about-transport-companies {
-  font-family: "Cuprum", "Arial", sans-serif;
+  font-family: var(--heading-font-stack);
   font-size: 18px;
   line-height: 24px;
 }
