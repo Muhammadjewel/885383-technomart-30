@@ -393,3 +393,12 @@ body {
   font-size: 18px;
   line-height: 24px;
 }
+
+/* Contacts */
+.contacts-heading {
+  font-family: var(--heading-font-stack);
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
