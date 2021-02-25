@@ -419,6 +419,7 @@ body {
   font-family: var(--heading-font-stack);
 }
 
+/* Site-footer top */
 .site-footer-top {
   font-size: 18px;
   line-height: 24px;
@@ -456,4 +457,36 @@ body {
 .site-footer-promo-links-link:active {
   text-decoration: none;
   opacity: 0.5;
+}
+
+/* Site-footer bottom */
+.site-footer-bottom {
+  background-color: var(--darker-blue);
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* Socials */
+.socials-link {
+  background-color: var(--darkest-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+.socials-link:hover {
+  background-color: var(--basic-red);
+}
+
+.site-footer-bottom-link {
+  color: var(--link-yellow);
+  text-decoration: none;
+}
+
+.site-footer-bottom-link:hover {
+  text-decoration: underline;
+}
+
+.site-footer-bottom-link:active {
+  color: var(--basic-red);
+  text-decoration: none;
 }
