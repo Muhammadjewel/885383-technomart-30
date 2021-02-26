@@ -641,3 +641,16 @@ body {
 .products-sorting-direction-link:hover {
   color: #000;
 }
+
+/* Pagination */
+.pagination-link {
+  color: #000;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pagination-item-active .pagination-link {
+  background-color: var(--basic-red);
+  color: #fff;
+}
