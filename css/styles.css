@@ -104,6 +104,16 @@ body {
   background-color: var(--button-active);
 }
 
+.button-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.button-white:hover {
+  color: #fff;
+}
+
+
 /* Site section */
 .section-header {
   font-family: var(--heading-font-stack);
