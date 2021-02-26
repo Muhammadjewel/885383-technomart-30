@@ -163,6 +163,10 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.site-header-action-cart.site-header-action-cart-active {
+  background-color: var(--basic-red);
+}
+
 .site-header-action-order {
   background-color: var(--basic-green);
 }
@@ -211,6 +215,24 @@ body {
 }
 
 .site-header-auth-link:active {
+  color: var(--basic-greylight);
+}
+
+.profile-links {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.profile-link {
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  color: var(--basic-red);
+}
+
+.profile-link:active {
   color: var(--basic-greylight);
 }
 
