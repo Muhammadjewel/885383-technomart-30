@@ -364,6 +364,12 @@ body {
 }
 
 
+/* Popular manufacturers */
+.manufacturer-link:active {
+  opacity: 0.5;
+}
+
+
 /* Services */
 .services {
   background-color: var(--basic-bg);
