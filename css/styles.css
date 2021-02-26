@@ -654,3 +654,18 @@ body {
   background-color: var(--basic-red);
   color: #fff;
 }
+
+
+/* Info */
+.info {
+  background-color: var(--basic-bg);
+}
+
+.info-heading {
+  font-family: var(--heading-font-stack);
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
