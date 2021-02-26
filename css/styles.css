@@ -397,7 +397,7 @@ body {
 
 
 /* Popular manufacturers */
-.manufacturer-link:active {
+.manufacturer-item-link:active {
   opacity: 0.5;
 }
 
