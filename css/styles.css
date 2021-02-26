@@ -512,3 +512,27 @@ body {
   color: var(--basic-red);
   text-decoration: none;
 }
+
+
+/* Catalog page */
+.page-title {
+  background-color: var(--basic-bg);
+  color: var(--dark-blue);
+  font-family: var(--heading-font-stack);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #000;
+}
