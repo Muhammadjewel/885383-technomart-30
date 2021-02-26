@@ -625,11 +625,19 @@ body {
   color: var(--basic-red);
 }
 
+.products-sorting-type-link:hover {
+  color: #000;
+}
+
 .products-sorting-direction-link {
-  text-decoration: none;
   color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }
 
 .products-sorting-direction-link-active {
   color: var(--basic-red)
+}
+
+.products-sorting-direction-link:hover {
+  color: #000;
 }
