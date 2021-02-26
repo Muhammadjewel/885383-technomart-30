@@ -573,3 +573,33 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+
+/* Products */
+.products-sorting {
+  background-color: #f7f3ec;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.products-sorting-heading {
+  font-weight: 400;
+}
+
+.products-sorting-type-link {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.products-sorting-type-link-active {
+  color: var(--basic-red);
+}
+
+.products-sorting-direction-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.products-sorting-direction-link-active {
+  color: var(--basic-red)
+}
