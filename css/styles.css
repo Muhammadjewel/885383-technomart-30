@@ -339,6 +339,36 @@ body {
   line-height: 20px;
 }
 
+.product-actions {
+  font-family: var(--heading-font-stack);
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.product-buy-link {
+  background-color: var(--basic-green);
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-buy-link:hover {
+  background-color: var(--success);
+}
+
+.product-buy-link:active {
+  background-color: #518534;
+}
+
+.product-bookmark-link {
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+.product-bookmark-link:active {
+  color: rgba(50, 66, 92, 0.5);
+}
+
 .product-price {
   font-size: 17px;
   line-height: 18px;
