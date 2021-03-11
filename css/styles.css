@@ -587,8 +587,27 @@ body {
 }
 
 
+/* About Contacts */
+.about-contacts {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.about-contacts-container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 180px;
+}
+
+
 /* About */
+.about {
+  width: 460px;
+}
+
 .about-heading {
+  margin-top: 0;
+  margin-bottom: 24px;
   font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
@@ -604,6 +623,8 @@ body {
 
 /* Contacts */
 .contacts-heading {
+  margin-top: 0;
+  margin-bottom: 24px;
   font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
