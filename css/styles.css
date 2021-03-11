@@ -250,6 +250,8 @@ body {
 }
 
 .site-header-auth-link {
+  display: inline-block;
+  padding: 12px 24px;
   font-size: 21px;
   line-height: 21px;
   text-decoration: none;
