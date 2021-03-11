@@ -495,9 +495,15 @@ body {
 }
 
 .product-buy-link {
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 2px;
+  min-width: 135px;
   background-color: var(--basic-green);
   color: #fff;
   text-decoration: none;
+  text-align: center;
+  box-shadow: inset 0px -3px 0px var(--darker-green);
 }
 
 .product-buy-link:hover {
@@ -509,12 +515,21 @@ body {
 }
 
 .product-bookmark-link {
+  display: inline-block;
+  min-width: 135px;
+  padding: 10px 12px;
+  border: 3px solid var(--basic-green);
   color: var(--dark-blue);
   text-decoration: none;
+  text-align: center;
+}
+
+.product-bookmark-link:hover {
+  border-color: var(--dark-blue);
 }
 
 .product-bookmark-link:active {
-  color: rgba(50, 66, 92, 0.5);
+  opacity: 0.5;
 }
 
 .product-price {
