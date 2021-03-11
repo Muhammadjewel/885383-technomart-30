@@ -127,6 +127,10 @@ body {
 
 /* Site section */
 .section-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   padding: 25px 14px 25px 28px;
   margin-bottom: 20px;
   font-family: var(--heading-font-stack);
