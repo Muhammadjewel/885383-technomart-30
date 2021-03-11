@@ -544,6 +544,14 @@ body {
   opacity: 0.5;
 }
 
+.manufacturer-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 145px;
+  border: 1px solid var(--light-grey);
+}
+
 
 /* Services */
 .services {
