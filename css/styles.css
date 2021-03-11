@@ -508,10 +508,19 @@ body {
 
 /* Services */
 .services {
+  padding-top: 64px;
   background-color: var(--basic-bg);
 }
 
+.services-container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
 .services-heading {
+  grid-column: 1 / -1;
+  margin-top: 0;
+  margin-bottom: 25px;
   font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
@@ -519,7 +528,16 @@ body {
   text-transform: uppercase;
 }
 
+.services-text {
+  grid-column: 1 / -1;
+  margin-top: 0;
+  margin-bottom: 67px;
+}
+
 .services-tabs {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   font-family: var(--heading-font-stack);
   font-size: 21px;
   line-height: 30px;
@@ -541,7 +559,25 @@ body {
   background-color: #fff;
 }
 
+.services-list {
+  padding: 0;
+  margin: 0;
+  margin-left: 80px;
+  list-style: none;
+}
+
+.service {
+  display: none;
+  padding-bottom: 110px;
+}
+
+.service-active {
+  display: block;
+}
+
 .service-name {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
