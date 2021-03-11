@@ -86,6 +86,9 @@ body {
 
 /* Button */
 .button {
+  display: inline-block;
+  min-width: 192px;
+  padding: 11px 24px 9px;
   background-color: var(--basic-red);
   color: #fff;
   font-family: var(--heading-font-stack);
