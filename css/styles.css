@@ -113,6 +113,14 @@ body {
   color: #fff;
 }
 
+.container {
+  max-width: 980px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* Site section */
 .section-header {
@@ -131,6 +139,7 @@ body {
 
 /* Site-header */
 .site-header {
+  padding-bottom: 60px;
   font-family: var(--heading-font-stack);
   background-color: var(--basic-bg);
 }
@@ -190,7 +199,17 @@ body {
 }
 
 /* Site header middle */
+.site-header-middle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  padding-top: 46px;
+  margin-bottom: 40px;
+}
+
 .site-header-about-text {
+  margin: 0;
+  margin-top: -3px;
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
@@ -251,6 +270,12 @@ body {
   background-color: var(--dark-blue);
   color: #fff;
   font-size: 18px;
+}
+
+.sitenav-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .sitenav-link {
