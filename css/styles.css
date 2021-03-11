@@ -615,10 +615,37 @@ body {
   text-transform: uppercase;
 }
 
+.about p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.about p:last-of-type {
+  margin-bottom: 5px;
+}
+
 .about-transport-companies {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
   font-family: var(--heading-font-stack);
   font-size: 18px;
   line-height: 24px;
+}
+
+.about-transport-company {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.about-transport-company::before {
+  width: 25px;
+  height: 2px;
+  margin-right: 12px;
+  background-color: var(--basic-red);
+  content: "";
 }
 
 /* Contacts */
@@ -630,6 +657,16 @@ body {
   line-height: 30px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.contacts p {
+  margin-bottom: 32px;
+}
+
+.contacts-map {
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
 }
 
 
