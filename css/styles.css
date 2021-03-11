@@ -179,6 +179,8 @@ body {
 
 /* Site header actions */
 .site-header-action {
+  display: inline-block;
+  padding: 9px 26px;
   color: #fff;
   text-decoration: none;
 }
@@ -193,6 +195,8 @@ body {
 }
 
 .site-header-action-order {
+  padding-left: 19px;
+  padding-right: 16px;
   background-color: var(--basic-green);
 }
 
