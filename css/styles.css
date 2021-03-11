@@ -214,6 +214,7 @@ body {
 .site-header-middle {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: start;
   column-gap: 70px;
   padding-top: 46px;
   margin-bottom: 40px;
@@ -251,9 +252,16 @@ body {
   text-align: center;
 }
 
+.site-header-auth-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .site-header-auth-link {
   display: inline-block;
   padding: 12px 24px;
+  margin-left: 10px;
   font-size: 21px;
   line-height: 21px;
   text-decoration: none;
