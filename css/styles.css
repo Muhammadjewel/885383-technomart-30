@@ -223,11 +223,18 @@ body {
 }
 
 .site-header-phone {
+  display: block;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  border: 3px solid #fff;
+  margin-bottom: 3px;
   font-size: 21px;
   line-height: 30px;
   font-weight: bold;
   color: var(--basic-red);
   text-decoration: none;
+  text-align: center;
 }
 
 .site-header-address {
@@ -235,6 +242,7 @@ body {
   line-height: 24px;
   font-style: normal;
   color: var(--dark-blue);
+  text-align: center;
 }
 
 .site-header-auth-link {
