@@ -790,6 +790,8 @@ body {
 
 /* Form modal */
 .modal {
+  position: relative;
+  z-index: 99;
   max-width: 620px;
   border-top: 7px solid var(--basic-red);
   margin-top: 50px;
@@ -798,12 +800,48 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
+.modal-close-button {
+  position: absolute;
+  z-index: 1;
+  width: 21px;
+  height: 21px;
+  right: 11px;
+  top: 18px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/icon-close.png");
+}
+
+.modal-info-text {
+  display: flex;
+  align-items: center;
+  font-family: var(--heading-font-stack);
+  padding: 48px 80px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+
+.modal-info-text::before {
+  width: 66px;
+  height: 66px;
+  margin-right: 30px;
+  background-image: url("../img/icon-mark.png");
+  content: "";
+}
+
 .modal-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 37px 80px;
   background-color: #f1f1f1;
+}
+
+.modal-footer .button:not(:first-child) {
+  margin-left: 10px;
 }
 
 .form-modal-fields {
