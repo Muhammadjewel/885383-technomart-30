@@ -1066,6 +1066,14 @@ body {
   text-transform: uppercase;
 }
 
+.pagination-link:hover {
+  border-color: var(--basic-greylight);
+}
+
+.pagination-link:active {
+  border-color: var(--basic-red);
+}
+
 .pagination-item-prev .pagination-link,
 .pagination-item-next .pagination-link {
   padding-left: 32px;
