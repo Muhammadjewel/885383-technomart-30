@@ -479,7 +479,7 @@ body {
   margin-bottom: 70px;
 }
 
-.products-grid {
+.products-grid-index {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
