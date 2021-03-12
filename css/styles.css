@@ -360,6 +360,9 @@ body {
   padding-top: 59px;
 }
 
+.site-content-catalog {
+  padding-top: 20px;
+}
 
 /* Promos */
 .promos {
@@ -912,6 +915,9 @@ body {
 
 /* Catalog page */
 .page-title {
+  padding: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
   background-color: var(--basic-bg);
   color: var(--dark-blue);
   font-family: var(--heading-font-stack);
@@ -923,9 +929,23 @@ body {
 
 /* Breadcrumbs */
 .breadcrumbs {
+  margin-bottom: 20px;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumbs-item {
+  margin-right: 40px;
 }
 
 .breadcrumbs-link {
