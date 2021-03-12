@@ -173,7 +173,17 @@ body {
 
 /* Logo */
 .logo {
+  display: inline-block;
   background-color: var(--basic-red);
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.logo-img {
+  display: block;
+}
+
+.site-header-logo {
+  padding: 12px 56px 17px;
 }
 
 .logo:active {
@@ -617,6 +627,8 @@ body {
 }
 
 .services-tabs-link {
+  display: block;
+  padding: 14px 22px 18px;
   background-color: var(--dark-blue);
   color: #fff;
   text-decoration: none;
@@ -762,6 +774,11 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
+}
+
+.site-footer-logo {
+  display: inline-block;
+  padding: 20px 41px 25px;
 }
 
 .site-footer-main-links-link {
