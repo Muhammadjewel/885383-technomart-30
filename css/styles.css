@@ -845,13 +845,28 @@ body {
 
 /* Site-footer bottom */
 .site-footer-bottom {
+  padding-top: 35px;
+  padding-bottom: 35px;
   background-color: var(--darker-blue);
   font-size: 16px;
   line-height: 18px;
 }
 
+.site-footer-bottom-container {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.site-footer-copy {
+  margin: 0;
+}
+
 /* Socials */
 .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -865,6 +880,19 @@ body {
 
 .socials-link:hover {
   background-color: var(--basic-red);
+}
+
+.site-footer-bottom-addl {
+  display: flex;
+}
+
+.site-footer-bottom-email,
+.site-footer-bottom-developer {
+  margin: 0;
+}
+
+.site-footer-bottom-email {
+  margin-right: 50px;
 }
 
 .site-footer-bottom-link {
