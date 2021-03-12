@@ -974,9 +974,13 @@ body {
 
 /* Filters */
 .filters-heading {
+  padding: 10px 18px;
+  margin-top: 0;
+  margin-bottom: 14px;
   background-color: #f7f3ec;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 13px;
   line-height: 18px;
 }
 
@@ -1015,12 +1019,15 @@ body {
 
 /* Products */
 .products-sorting {
+  padding: 10px 18px;
   background-color: #f7f3ec;
   line-height: 18px;
   text-transform: uppercase;
 }
 
 .products-sorting-heading {
+  margin: 0;
+  font-size: 13px;
   font-weight: 400;
 }
 
