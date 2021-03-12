@@ -338,18 +338,20 @@
       <h2 class="visually-hidden">Форма обратной связи</h2>
       <button class="modal-close-button" type="button">Закрыть</button>
       <form action="https://echo.htmlacademy.ru" method="POST">
-        <p>
-          <label class="form-modal-label" for="name-input">Ваше имя:</label>
-          <input type="text" name="name" id="name-input" placeholder="Имя Фамилия" required>
-        </p>
-        <p>
-          <label class="form-modal-label" for="email-input">Ваш e-mail:</label>
-          <input type="email" name="email" id="email-input" placeholder="email@example.com" required>
-        </p>
-        <p>
-          <label class="form-modal-label" for="message-textarea">Текст письма:</label>
-          <textarea name="message" id="message-textarea" placeholder="В свободной форме"></textarea>
-        </p>
+        <div class="form-modal-fields">
+          <p class="form-modal-group">
+            <label class="form-modal-label" for="name-input">Ваше имя:</label>
+            <input class="form-field" type="text" name="name" id="name-input" placeholder="Имя Фамилия" required>
+          </p>
+          <p class="form-modal-group">
+            <label class="form-modal-label" for="email-input">Ваш e-mail:</label>
+            <input class="form-field" type="email" name="email" id="email-input" placeholder="email@example.com" required>
+          </p>
+          <p class="form-modal-group form-modal-group-textarea">
+            <label class="form-modal-label" for="message-textarea">Текст письма:</label>
+            <textarea class="form-field form-field-textarea" name="message" id="message-textarea" placeholder="В свободной форме"></textarea>
+          </p>
+        </div>
         <footer class="modal-footer">
           <button class="button button-block" type="submit">Отправить</button>
         </footer>

@@ -99,6 +99,7 @@ body {
   display: inline-block;
   min-width: 192px;
   padding: 11px 24px 9px;
+  border: none;
   background-color: var(--basic-red);
   color: #fff;
   font-family: var(--heading-font-stack);
@@ -124,6 +125,11 @@ body {
 
 .button-white:hover {
   color: #fff;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
 }
 
 .container {
@@ -783,6 +789,53 @@ body {
 
 
 /* Form modal */
+.modal {
+  max-width: 620px;
+  border-top: 7px solid var(--basic-red);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 80px;
+  background-color: #f1f1f1;
+}
+
+.form-modal-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 13px;
+  column-gap: 20px;
+  padding: 38px 80px;
+}
+
+.form-modal-group {
+  margin: 0;
+}
+
+.form-modal-group-textarea {
+  grid-column: 1 / -1;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+  border: 2px solid var(--basic-greylight);
+  margin-top: 11px;
+  border-radius: 2px;
+}
+
+.form-field-textarea {
+  min-height: 114px;
+  resize: vertical;
+}
+
 .form-modal-label {
   font-family: var(--heading-font-stack);
   font-size: 18px;
