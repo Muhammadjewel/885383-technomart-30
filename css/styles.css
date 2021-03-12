@@ -924,7 +924,14 @@ body {
 
 
 /* Catalog page */
+.catalog-content-container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  column-gap: 20px;
+}
+
 .page-title {
+  grid-column: 1 / -1;
   padding: 30px;
   margin-top: 0;
   margin-bottom: 20px;
@@ -939,6 +946,8 @@ body {
 
 /* Breadcrumbs */
 .breadcrumbs {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
   margin-bottom: 20px;
   font-size: 13px;
   line-height: 18px;
