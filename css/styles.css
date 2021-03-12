@@ -1127,14 +1127,26 @@ body {
 
 /* Info */
 .info {
+  padding-top: 64px;
+  padding-bottom: 68px;
   background-color: var(--basic-bg);
 }
 
 .info-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
   font-family: var(--heading-font-stack);
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
   color: #000;
   text-transform: uppercase;
+}
+
+.info p {
+  margin-top: 0;
+}
+
+.info p:last-child {
+  margin-bottom: 0;
 }
