@@ -1045,16 +1045,31 @@ body {
 
 /* Pagination */
 .pagination {
+  display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
+.pagination-item {
+  margin-right: 10px;
+}
+
 .pagination-link {
+  display: block;
+  padding: 10px 15px;
+  border: 1px solid var(--lightest-grey);
+  border-radius: 2px;
   color: #000;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.pagination-item-prev .pagination-link,
+.pagination-item-next .pagination-link {
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .pagination-item-active .pagination-link {
