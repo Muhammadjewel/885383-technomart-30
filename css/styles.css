@@ -785,9 +785,16 @@ body {
 }
 
 .site-footer-main-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.site-footer-main-links li:not(:first-child) {
+  margin-left: 58px;
 }
 
 .site-footer-main-links-link {
@@ -810,9 +817,16 @@ body {
 }
 
 .site-footer-promo-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.site-footer-promo-links li:not(:first-child) {
+  margin-left: 58px;
 }
 
 .site-footer-promo-links-link {
